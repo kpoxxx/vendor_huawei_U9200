@@ -84,6 +84,7 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/viva/proprietary/lib/libdomx.so:system/lib/libdomx.so \
   vendor/huawei/viva/proprietary/lib/libexif.so:system/lib/libexif.so \
   vendor/huawei/viva/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
+  vendor/huawei/viva/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
   vendor/huawei/viva/proprietary/lib/libaudience.so:system/lib/libaudience.so \
   vendor/huawei/viva/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
   vendor/huawei/viva/proprietary/lib/hw/audio.hdmi.omap4.so:system/lib/hw/audio.hdmi.omap4.so \
