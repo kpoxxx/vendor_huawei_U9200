@@ -27,28 +27,15 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/viva/proprietary/vendor/lib/libusc_SGX540_120.so:system/vendor/lib/libusc_SGX540_120.so \
   vendor/huawei/viva/proprietary/vendor/lib/libglslcompiler_SGX540_120.so:system/vendor/lib/libglslcompiler_SGX540_120.so \
   vendor/huawei/viva/proprietary/vendor/lib/libsrv_init_SGX540_120.so:system/vendor/lib/libsrv_init_SGX540_120.so \
-  vendor/huawei/viva/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX544_112.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX544_112.so \
   vendor/huawei/viva/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
   vendor/huawei/viva/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
   vendor/huawei/viva/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
-  vendor/huawei/viva/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX544_112.so:system/vendor/lib/egl/libEGL_POWERVR_SGX544_112.so \
-  vendor/huawei/viva/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX544_112.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX544_112.so \
   vendor/huawei/viva/proprietary/vendor/lib/libbltsville_hw2d.so:system/vendor/lib/libbltsville_hw2d.so \
-  vendor/huawei/viva/proprietary/vendor/lib/libglslcompiler_SGX544_112.so:system/vendor/lib/libglslcompiler_SGX544_112.so \
-  vendor/huawei/viva/proprietary/vendor/lib/libsrv_um_SGX544_112.so:system/vendor/lib/libsrv_um_SGX544_112.so \
   vendor/huawei/viva/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-  vendor/huawei/viva/proprietary/vendor/lib/libIMGegl_SGX544_112.so:system/vendor/lib/libIMGegl_SGX544_112.so \
-  vendor/huawei/viva/proprietary/vendor/lib/libPVRScopeServices_SGX544_112.so:system/vendor/lib/libPVRScopeServices_SGX544_112.so \
   vendor/huawei/viva/proprietary/vendor/lib/libsrv_um_SGX540_120.so:system/vendor/lib/libsrv_um_SGX540_120.so \
   vendor/huawei/viva/proprietary/vendor/lib/libPVRScopeServices_SGX540_120.so:system/vendor/lib/libPVRScopeServices_SGX540_120.so \
-  vendor/huawei/viva/proprietary/vendor/lib/libusc_SGX544_112.so:system/vendor/lib/libusc_SGX544_112.so \
-  vendor/huawei/viva/proprietary/vendor/lib/libpvrANDROID_WSEGL_SGX544_112.so:system/vendor/lib/libpvrANDROID_WSEGL_SGX544_112.so \
-  vendor/huawei/viva/proprietary/vendor/lib/libsrv_init_SGX544_112.so:system/vendor/lib/libsrv_init_SGX544_112.so \
-  vendor/huawei/viva/proprietary/vendor/lib/hw/gralloc.omap4430.so:system/vendor/lib/hw/gralloc.omap4430.so \
   vendor/huawei/viva/proprietary/vendor/lib/hw/gralloc.omap4460.so:system/vendor/lib/hw/gralloc.omap4460.so \
-  vendor/huawei/viva/proprietary/vendor/lib/hw/gralloc.omap4470.so:system/vendor/lib/hw/gralloc.omap4470.so \
   vendor/huawei/viva/proprietary/vendor/lib/hw/hwcomposer.omap4.so:system/vendor/lib/hw/hwcomposer.omap4.so \
-  vendor/huawei/viva/proprietary/vendor/lib/libpvr2d_SGX544_112.so:system/vendor/lib/libpvr2d_SGX544_112.so \
   vendor/huawei/viva/proprietary/vendor/lib/libpvr2d_SGX540_120.so:system/vendor/lib/libpvr2d_SGX540_120.so \
   vendor/huawei/viva/proprietary/vendor/lib/libbltsville_ticpu_license.txt:system/vendor/lib/libbltsville_ticpu_license.txt \
   vendor/huawei/viva/proprietary/vendor/lib/libpvrANDROID_WSEGL_SGX540_120.so:system/vendor/lib/libpvrANDROID_WSEGL_SGX540_120.so \
@@ -57,9 +44,11 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/viva/proprietary/vendor/lib/libbltsville_gc2d.so:system/vendor/lib/libbltsville_gc2d.so \
   vendor/huawei/viva/proprietary/vendor/lib/libbltsville_ticpu.2.1.0.0.so:system/vendor/lib/libbltsville_ticpu.2.1.0.0.so \
   vendor/huawei/viva/proprietary/vendor/bin/pvrsrvctl_SGX540_120:system/vendor/bin/pvrsrvctl_SGX540_120 \
-  vendor/huawei/viva/proprietary/vendor/bin/pvrsrvctl_SGX544_112:system/vendor/bin/pvrsrvctl_SGX544_112 \
   vendor/huawei/viva/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
   vendor/huawei/viva/proprietary/lib/libion.so:system/lib/libion.so \
+  vendor/huawei/viva/proprietary/lib/libedid.so:system/lib/libedid.so \
+  vendor/huawei/viva/proprietary/lib/libjpeg.so:system/lib/libjpeg.so \
+  vendor/huawei/viva/proprietary/lib/libion_ti.so:system/lib/libion_ti.so \
   vendor/huawei/viva/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
   vendor/huawei/viva/proprietary/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so:system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so \
   vendor/huawei/viva/proprietary/lib/libfmradio.so:system/lib/libfmradio.so \
@@ -70,7 +59,6 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/viva/proprietary/lib/libxgold-ril.so:system/lib/libxgold-ril.so \
   vendor/huawei/viva/proprietary/lib/libhuawei-audio-ril.so:system/lib/libhuawei-audio-ril.so \
   vendor/huawei/viva/proprietary/lib/modules/pvrsrvkm_sgx540_120.ko:system/lib/modules/pvrsrvkm_sgx540_120.ko \
-  vendor/huawei/viva/proprietary/lib/modules/pvrsrvkm_sgx544_112.ko:system/lib/modules/pvrsrvkm_sgx544_112.ko \
   vendor/huawei/viva/proprietary/lib/libmm_osal.so:system/lib/libmm_osal.so \
   vendor/huawei/viva/proprietary/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so:system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so \
   vendor/huawei/viva/proprietary/lib/libdomx.so:system/lib/libdomx.so \
@@ -119,5 +107,7 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/viva/proprietary/etc/firmware/fm_rx_ch8_1283.2.bts:system/etc/firmware/fm_rx_ch8_1283.2.bts \
   vendor/huawei/viva/proprietary/etc/firmware/TIInit_7.2.31.bts:system/etc/firmware/TIInit_7.2.31.bts \
   vendor/huawei/viva/proprietary/etc/powervr.ini:system/etc/powervr.ini \
-  vendor/huawei/viva/proprietary/xbin/kfmapp:system/xbin/kfmapp \
-  vendor/huawei/viva/proprietary/xbin/bt_sco_app:system/xbin/bt_sco_app
+  vendor/huawei/viva/proprietary/xbin/bt_sco_app:system/xbin/bt_sco_app \
+  vendor/huawei/viva/proprietary/xbin/hciconfig:system/xbin/hciconfig \
+  vendor/huawei/viva/proprietary/xbin/hcitool:system/xbin/hcitool \
+  vendor/huawei/viva/proprietary/xbin/kfmapp:system/xbin/kfmapp
